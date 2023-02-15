@@ -5,4 +5,9 @@ public class Cat extends Animal {
 	public void night() {
 		System.out.println("밤에 눈에서 빛이난다.");
 	}
+
+	@Override
+	public void eat() {
+		System.out.println("야옹이가 할짝 할짝 음식을 먹는다.");
+	}
 }
